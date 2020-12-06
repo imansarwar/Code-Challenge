@@ -1,0 +1,49 @@
+.cart-image {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  border: 2px solid rgb(0, 19, 128);
+}
+
+.cart-image > img {
+  width: 100px;
+  height: 100px;
+}
+
+.cart-image > span > svg {
+  color: #00587a;
+  transition: all 0.8s linear 0s;
+  stroke: #0f3057;
+}
+
+.cart-image > span > svg:hover {
+  color: red;
+  stroke: none;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+button {
+  padding: 20px 30px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: 2px solid #f05454;
+  color: white;
+  font-weight: bolder;
+  background-color: #f05454;
+  transition: all 0.6s ease-out 0s;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #f05454;
+  background-color: white;
+}
+
+button:focus {
+  outline: none;
+}

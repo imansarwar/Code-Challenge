@@ -1,0 +1,32 @@
+.App {
+  font-family: cursive;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(to right, #222831, #222831);
+}
+
+h1 {
+  color: #e8e8e8;
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+
+a {
+  background-color: #1f3c88;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 24px;
+  color: white;
+}
+
+.heading {
+  background-color: #f05454;
+  text-align: center;
+}
+
+.cart-box {
+  position: absolute;
+  padding-left: 1000px;
+}

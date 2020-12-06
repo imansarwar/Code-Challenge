@@ -1,0 +1,60 @@
+.imgContainer {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+  border: 5px solid #e8e8e8;
+}
+
+.imgContainer > div > span:first-child {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  z-index: 12;
+}
+
+.imgContainer > div > span:last-child {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  z-index: 12;
+}
+
+.imgContainer:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 250px;
+  opacity: 0.4;
+  background-color: #00acc1;
+}
+span > svg {
+  font-size: 50px !important;
+  cursor: pointer;
+}
+
+.heart {
+  color: #a20a0a;
+}
+
+.plus {
+  color: whitesmoke;
+}
+
+.cart-shopping {
+  color: #f05454;
+}
+
+.heart-shadow {
+  filter: drop-shadow(0px 0px 10px lightgrey);
+}
+
+.imgContainer > img {
+  width: inherit;
+  height: inherit;
+}
+.photo-comp {
+  color: #f05454;
+}
